@@ -58,7 +58,7 @@ go2rtc:
     listen: ":8555"  # address of your local server and port (TCP/UDP)
     candidates:
       - stun:8555  # if you have a dynamic public IP address
-     - 192.168.60.220:8555
+      - 192.168.60.220:8555
      
 cameras:
   cam101:
