@@ -59,6 +59,10 @@ go2rtc:
      
 cameras:
   cam101:
+    detect:
+      width: 1280
+      height: 720
+      fps: 7
    ffmpeg:
      output_args:
        record: preset-record-generic-audio-aac
