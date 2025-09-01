@@ -47,9 +47,6 @@ snapshots:
    default: 30
 
 go2rtc:
-  rtsp:
-    username: "admin"
-    password: "827gYwh92jhZ"
   streams:
     cam101:
       - rtsp://admin:827gYwh92jhZ@192.168.60.93:554/stream0:0
