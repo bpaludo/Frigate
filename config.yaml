@@ -6,7 +6,7 @@ mqtt:
   password: juUAT629acn9ZMJK
 
 ffmpeg:
-  hwaccel_args: preset-intel-qsv-h264
+  hwaccel_args: preset-vaapi
 
 detectors:
  ov:
@@ -61,7 +61,7 @@ cameras:
   cam101:
    ffmpeg:
      output_args:
-       record: preset-record-generic-audio-copy
+       record: preset-record-generic-audio-aac
      inputs:
        - path: rtsp://127.0.0.1:8554/cam101 # <--- the name here must match the name of the camera in restream
          input_args: preset-rtsp-restream
